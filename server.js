@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 5000;
 app.use(cors());
 app.use(express.json());
 
-mongoose.connect('mongodb://localhost:27017/trello-clone', {
+mongoose.connect('mongodb+srv://nutechuser:Nutechuser@cluster0.g1p3xeq.mongodb.net/trello-clone', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   
